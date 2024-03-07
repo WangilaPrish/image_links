@@ -1,0 +1,225 @@
+<style>
+/* General styles */
+/* General styles */
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+section {
+  padding: 50px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Home section styles */
+#home,
+#home * {
+  color: black !important; /* Set color to black */
+}
+
+
+
+/* Gallery section styles */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Us section styles */
+#contactus p {
+  font-style: normal;
+}
+
+#contactus a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#contactus a:hover {
+  color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Hamburger menu styles */
+.nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-toggle {
+      display: block;
+      position: relative;
+      z-index: 999;
+      cursor: pointer;
+  }
+
+  nav ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 20px;
+  }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 15px;
+  }
+
+  nav ul li:last-child {
+      margin-bottom: 0;
+  }
+
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+      color: #ddd;
+  }
+
+  .nav-open {
+      display: block;
+  }
+}
+
+
+/* Home section styles */
+#home p,
+#contactus p {
+  font-size: 1em; /* Set font size to 1em (default size) */
+}
+
+/* Gallery section styles */
+/* Gallery section styles */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+/* Contact Us section styles */
+#contactus p {
+  font-style: normal;
+}
+
+#contactus a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#contactus a:hover {
+  color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+  </style>
